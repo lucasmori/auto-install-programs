@@ -1,14 +1,14 @@
 #!/bin/bash
 
-###########################################################
-#Script Name		: Auto Install Programs
-#Description		: Script to install devTools I most use
-#Args				:
-#Author				: Lucas Mori
-#Email				: lucase.mori@gmail.com
-#Version			: 1.0
-#Last Modification	: 04/26/19
-###########################################################
+####################################################
+#Script Name: Auto Install Programs                #
+#Description: Script to install devTools I most use#
+#Args:                                             #
+#Author: Lucas Mori                                #
+#Email: lucase.mori@gmail.com                      #
+#Version: 1.0                                      #
+#Last Modification: 04/26/19                       #
+####################################################
 
 clear
 echo Updating Repositories... 
