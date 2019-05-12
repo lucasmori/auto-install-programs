@@ -30,10 +30,12 @@ snap install notepad-plus-plus
 snap install discord
 snap install slack --classic
 snap install telegram-desktop
-apt-get install nodejs
-apt-get install npm
-apt-get install samba
-apt-get install vim
+apt-get install nodejs -y
+apt-get install npm -y
+apt-get install samba -y
+apt-get install vim -y
+apt-get install docker.io -y
+apt-get install docker-compose -y
 
 ufw enable
 
