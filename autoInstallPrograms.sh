@@ -24,30 +24,25 @@ clear
 echo Installing Programs...
 sleep 5
 
-<<<<<<< HEAD
 snap install code --classic -y
 snap install postman -y
 snap install notepad-plus-plus -y
 snap install discord -y
 snap install slack --classic -y
 snap install telegram-desktop -y
-=======
 snap install code --classic
 snap install postman
 snap install notepad-plus-plus
 snap install discord
 snap install slack --classic
 snap install telegram-desktop
->>>>>>> 2b78053de9843b32811a164d61ad044f0e0709cd
 apt-get install nodejs -y
 apt-get install npm -y
 apt-get install samba -y
 apt-get install vim -y
-<<<<<<< HEAD
-=======
+
 apt-get install docker.io -y
 apt-get install docker-compose -y
->>>>>>> 2b78053de9843b32811a164d61ad044f0e0709cd
 
 ufw enable
 
@@ -59,5 +54,5 @@ echo .
 echo ..
 echo ...
 echo Press ENTER to continue
-read #pausa
+read #pause
 exit
