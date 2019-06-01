@@ -30,14 +30,15 @@ snap install notepad-plus-plus -y
 snap install discord -y
 snap install slack --classic -y
 snap install telegram-desktop -y
-snap install code --classic
-snap install postman
-snap install notepad-plus-plus
-snap install discord
-snap install slack --classic
-snap install telegram-desktop
+snap install code --classic -y
+snap install postman -y
+snap install notepad-plus-plus -y
+snap install discord -y
+snap install slack --classic -y
+snap install telegram-desktop -y
 apt-get install nodejs -y
 apt-get install npm -y
+apt-get install nvm -y
 apt-get install samba -y
 apt-get install vim -y
 
