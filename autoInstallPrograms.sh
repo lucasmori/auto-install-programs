@@ -6,24 +6,22 @@
 #Args:                                             #
 #Author: Lucas Mori                                #
 #Email: lucase.mori@gmail.com                      #
-#Version: 1.0                                      #
+#Version: 3.3                                      #
 #Last Modification: 04/26/19                       #
 ####################################################
 
 clear
-echo Updating Repositories... 
-sleep 5
-apt-get update
-
+echo "Updating Repositories..."
+apt-get update || echo "Update Failed"
 clear
-echo Upgrading Repositories...
-sleep 5
-apt-get upgrade -y
 
+echo "Upgrading Repositories..."
+apt-get upgrade -y || echo "Upgrade Failed"
 clear
-echo Installing Programs...
-sleep 5
 
+
+echo "Installing Programs..."
+apt-get install git net-tools curl nodejs npm samba vim docker -y
 snap install code --classic
 snap install postman
 snap install notepad-plus-plus
@@ -36,24 +34,19 @@ snap install notepad-plus-plus
 snap install discord
 snap install slack --classic
 snap install telegram-desktop
-apt-get install nodejs -y
-apt-get install npm -y
-apt-get install nvm -y
-apt-get install samba -y
-apt-get install vim -y
 
 apt-get install docker.io -y
 apt-get install docker-compose -y
 
-ufw enable
+ufw enable #Firewall
 
 clear
-echo Repository Updated.
-echo System Updated.
-echo Installed programs.
-echo .
-echo ..
-echo ...
-echo Press ENTER to continue
+echo "Repository Updated."
+echo "System Updated."
+echo "Installed programs."
+echo "."
+echo ".."
+echo "..."
+echo "Press ENTER to continue"
 read #pause
 exit
